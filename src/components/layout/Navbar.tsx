@@ -40,7 +40,7 @@ export default function Navbar() {
         {/* Desktop Menu */}
         <div className="hidden md:flex items-center gap-6 text-slate-600 dark:text-slate-300 font-medium">
           <Link to="/" className="hover:text-blue-600 dark:hover:text-blue-500 transition-colors">Início</Link>
-          <Link to="/dashboard" className="hover:text-blue-600 dark:hover:text-blue-500 transition-colors">Dashboard</Link>
+          <Link to="/dashboard" className="hover:text-blue-600 dark:hover:text-blue-500 transition-colors">Traduções</Link>
           <Link to="/support" className="hover:text-blue-600 dark:hover:text-blue-500 transition-colors">Suporte</Link>
           
           <div className="flex items-center gap-4 ml-4">
